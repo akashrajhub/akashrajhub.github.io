@@ -488,30 +488,40 @@ footer .copyright {
   }
 
   /* FOOTER */
-  footer {
-    padding: 2rem 1rem;
-  }
+  /* FOOTER – Mobile Fix */
+footer {
+  padding: 1.5rem 1rem;
+}
 
-  .footer-content {
-    flex-direction: column;
-    gap: 1.25rem;
-    padding: 1.5rem;
-    text-align: center;
-  }
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  padding: 1.2rem;
+  text-align: center;
+  border-radius: 16px;
+}
 
-  .footer-section {
-    margin-bottom: 0.75rem;
-  }
+.footer-section {
+  margin: 0;
+  padding: 0;
+}
 
-  .footer-section h3 {
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-  }
+.footer-section h3 {
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
+}
 
-  .footer-section a,
-  .footer-section p {
-    font-size: 0.95rem;
-  }
+.footer-section p,
+.footer-section a {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.footer-section a {
+  display: block;
+  margin-top: 0.3rem;
+}
 }
   </style>
 </head>
@@ -732,6 +742,7 @@ for data-driven HR decision-making.
   </script>
 </body>
 </html>
+
 
 
 
